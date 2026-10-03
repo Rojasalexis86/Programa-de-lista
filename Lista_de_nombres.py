@@ -3,6 +3,7 @@ while True:
     print("Menu")
     print("1.Agregar cliente")
     print("2.Mostrar clientes")
+    print("3.Salir")
     opcion = input("Elija una opcion:")
     if opcion == "1":
         while True:
@@ -29,5 +30,8 @@ while True:
                     print(f"Cliente {i + 1}: {clientes[i]}")
             input("Presione enter para volver al menu:")    
             break    
+
+    elif opcion =="3":
+        break
     else:
         print("Caracter incorrecto:")
