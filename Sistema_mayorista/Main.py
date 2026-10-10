@@ -59,7 +59,7 @@ while True:
                     print("No hay productos en la lista.")
                 else:
                     for i in range(len(productos)):
-                        print( f"{i + 1}Producto:{productos[i][0]}|Categoria:{productos[i][1]}|Precio:${productos[i][2]}|Cantidad disponible:{productos[i][3]}")
+                        print( f"{i + 1}.Producto:{productos[i][0]}|Categoria:{productos[i][1]}|Precio:${productos[i][2]}|Cantidad disponible:{productos[i][3]}")
                     try:
                         producto_a_borrar=int(input("Que producto quiere eliminar: "))
                         if producto_a_borrar >=1 and producto_a_borrar <= len(productos):
@@ -76,7 +76,7 @@ while True:
                     print("No hay productos en la lista.")
                 else:
                     for i in range(len(productos)):
-                        print(f"{i +1}Producto:{productos[i][0]}|Categoria:{productos[i][1]}|Precio:${productos[i][2]}|Cantidad disponible:{productos[i][3]}")
+                        print(f"{i +1}.Producto:{productos[i][0]}|Categoria:{productos[i][1]}|Precio:${productos[i][2]}|Cantidad disponible:{productos[i][3]}")
                     try:
                         producto_a_editar=int(input("Que producto quiere editar: "))
                         if producto_a_editar >= 1 and producto_a_editar <= len(productos):
